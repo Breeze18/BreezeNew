@@ -1,0 +1,14 @@
+.btn-learn-more {
+    color: white;
+    border:  1px solid white;
+    border-radius: 5px;
+}
+
+.btn-learn-more :hover{
+    color: white;
+}
+
+.btn-learn-more :active {
+    color: white;
+}
+

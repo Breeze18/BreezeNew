@@ -105,9 +105,10 @@ ul li {
           transition-property: transform;
 }
 .btn:hover {
-  -webkit-transform: scale(0.9);
-      -ms-transform: scale(0.9);
-          transform: scale(0.9);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+          color: white;
 }
 
 .form-control {
