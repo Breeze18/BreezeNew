@@ -91,7 +91,7 @@ ul li {
 
 .btn {
   border: 0;
-  border-radius: 0;
+  border-radius: 5px;
   padding: 6px 28px;
   text-transform: uppercase;
   -webkit-transform: translateZ(0);
