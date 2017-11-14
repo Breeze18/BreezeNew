@@ -1,13 +1,18 @@
 /*
  * Change Navbar color while scrolling
 */
-
+$(document).ready(function(){
 $(window).scroll(function(){
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
 	handleTopNavAnimation();
 });
-
-$(window).load(function(){
-	handleTopNavAnimation();
 });
 
 function handleTopNavAnimation() {
@@ -62,6 +67,9 @@ $('#registration-form').submit(function(e){
         });
 });
 
+$('.navbar-nav>li>a').not("#aboutlink").on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
 /*
  * SmoothScroll
 */
