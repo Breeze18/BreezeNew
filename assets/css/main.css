@@ -736,3 +736,36 @@ ul li {
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
 }
+
+@media only screen and (max-device-width: 768px){
+
+.carousel{
+    height: 425px;
+  }
+
+.mt0{
+  margin-top: 50px;
+}
+}
+
+@media only screen and (max-device-width: 425px){
+
+.carousel{
+    height: 240px;
+  }
+
+  .mt0{
+  margin-top: 50px;
+}
+}
+
+@media only screen and (max-device-width: 375px){
+
+.carousel{
+    height: 210px;
+  }
+
+  .mt0{
+  margin-top: 50px;
+}
+}
