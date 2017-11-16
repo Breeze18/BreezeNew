@@ -1,0 +1,123 @@
+.heading-sports{
+	background-image: url(../images/sports.jpg);
+	text-align: center;
+	padding-top: 75px;
+	height: 250px;
+}
+
+.heading-cultural {
+	background-image: url(../images/cultural.jpg);
+	text-align: center;
+	padding-top: 75px;
+	height: 250px;
+}
+
+.heading-technical {
+	background-image: url(../images/technical.jpg);
+	text-align: center;
+	padding-top: 75px;
+	height: 250px;
+}
+
+h1{
+	font-family:'Montserrat';
+	letter-spacing:40px;
+	color:white;
+	top: 50px; 
+	left: 500px;   
+	width: 100%;
+	font-size:55px;
+	font-weight:20px;
+}
+
+.category{
+	padding: 20px 20px 20px 20px;
+	background-color:#FFF0D9;
+}
+
+.image{
+	float:left;
+}
+
+.text{
+	float:left;
+}
+
+.title{
+	font-size:25px;
+	color:black;
+	line-height:40px;
+	font-family:'Montserrat';
+	/*text-indent:40px;*/
+}
+
+.about{
+	font-size:18px;
+	color:black;
+	font-family:'Montserrat';
+	
+}
+
+.footer{
+	font-size:18px;
+	color:black;
+	font-family:'Montserrat';
+	margin-bottom:5px;
+}
+
+.btn {
+	border: 0;
+	border-radius: 5px;
+	padding: 10px 25px;
+	color: white;
+	letter-spacing: 1px;
+	background-color: #E46E24;
+	box-shadow: 0px 7px 0px #BE5B1D;
+	font-weight: normal;
+	-webkit-transition: all 0.4s ease;
+}
+
+.btn:hover {
+	color: white;
+	transform: translateY(4px);
+	box-shadow: 0px 4px 0px #BE5B1D;
+}
+
+.btn:active,
+.btn:visited {
+	color: white;
+}
+
+body {
+	background-color:#00b0ae;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+h1 {
+	font-family: 'Montserrat';
+	letter-spacing: 10px;
+	color: white;
+	top: 50px;
+	left: 500px;
+	width: 100%;
+	font-size: 25px;
+	font-weight: 20px;
+}
+
+.heading-sports {
+	padding-top: 75px;
+	height: 175px;
+}
+
+.heading-cultural {
+	padding-top:75px;
+	height: 175px;
+}
+
+.heading-technical {
+	padding-top: 75px;
+	height: 175px;
+}
+
+}
