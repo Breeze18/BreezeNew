@@ -1,0 +1,108 @@
+.container-fluid,.container{
+     padding-right: 0; 
+     padding-left: 0;  
+     margin-right: auto;
+     margin-left: auto;
+}
+.heading{
+	background-image: url(../images/danceheading.jpg);
+	text-align: center;
+	padding-top: 75px;
+	height: 250px;
+}
+h1{
+	font-family:'Montserrat';
+	letter-spacing:40px;
+	color:white;
+	top: 50px; 
+	left: 500px;   
+	width: 100%;
+	font-size:55px;
+	font-weight:20px;
+}
+a:visited,a:active,a:link{
+	color:#C5C1C0;
+}
+a:hover,a:focus{
+	color:#373737;
+}
+.container{
+	margin-left:200px;
+	margin-top:70px;
+	overflow:hidden;
+	background-color:#CDA34F;
+}
+.image{
+
+	height:200px;
+	width:200px;
+	border-top:1px solid black;
+	border-right:1px solid black;
+	float:left;
+	transform: rotate(45deg);
+	margin:5.5%;
+	margin-top:-11%;
+	background-color:#22252C;
+	
+}
+.image:nth-child(1){
+   margin-top: 11%;
+}
+.image:nth-child(2),.image:nth-child(4){
+	margin-left: 8.9%;
+	clear:left;
+}
+.image:nth-child(3),.image:nth-child(5){
+	clear:left;
+}
+.event-heading{
+	font-size:30px;
+	font-family:'Montserrat';
+	padding:40px;
+	text-align:center;
+}
+.captions{
+	
+	font-family:'Montserrat';
+	padding:40px;
+	padding-top:20px;
+	
+}
+.row p{
+	font-size:18px;
+	font-family:'Montserrat';
+	padding-left:40px;
+	
+}
+button{
+	margin-left:340px;
+	font-family:'Montserrat';
+}
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+h1 {
+	font-family: 'Montserrat';
+	letter-spacing: 10px;
+	color: #F4F4F4;
+	top: 50px;
+	left: 500px;
+	width: 100%;
+	font-size: 25px;
+	font-weight: 20px;
+}
+.container{
+	margin-left:10px;
+	margin-top:70px;
+	overflow:hidden;
+	
+}
+.heading{
+	padding-top: 75px;
+	height: 200px;
+
+}
+button{
+	margin-left:140px;
+	font-family:'Montserrat';
+}
+}
