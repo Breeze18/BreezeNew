@@ -1,0 +1,40 @@
+#image{
+	background-image:url('../images/form.jpg');
+	height:650px;
+	margin-top:60px;
+	margin-bottom:20px;
+}
+#form{
+	height:650px;
+	margin-top:60px;
+	margin-bottom:20px;
+}
+.form-group{
+	margin-top:30px;
+	margin-left:20px;
+}
+label,legend{
+	font-family:'Montserrat';
+	font-weight:bold;
+}
+.container{
+	margin-left:250px;
+}
+button{
+	margin-left:200px;
+}
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+
+.container{
+	margin-left:10px;
+}
+.form-group{
+	margin-top:10px;
+	margin-left:10px;
+}
+button{
+	margin-left:100px;
+	font-family:'Montserrat';
+}
+}
