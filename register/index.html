@@ -17,55 +17,113 @@
 	</div>
 	<div class="col-sm-6" id="form" style="background-color:#FFF0D9; padding-right:40px;">
 		<legend><h1 style="font-size: 20px; letter-spacing: 5px;"><center>REGISTRATION FORM</center></h1></legend>
+		<form enctype="application/json" action="" method="POST">
+		<div class="form-group">
+			<label class="control-label">E-MAIL</label>
+			<div class="inputGroupContainer">
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+					<input name="email" placeholder="E-Mail address" class="form-control" type="text">
+				</div>
+			</div>
+		</div>
 		<div class="form-group">
 			<label class="control-label">NAME</label>
 			<div class="inputGroupContainer">
 				<div class="input-group">
 				<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-				<input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+				<input  name="name" placeholder="First Name" class="form-control"  type="text">
 				</div>
 			</div>
 		</div>
 		<div class="form-group">
-			<label class="control-label">E-MAIL</label>
+			<label class="control-label">COLLEGE/UNIVERSITY</label>
 			<div class="inputGroupContainer">
 				<div class="input-group">
-				<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-				<input  name="first_name" placeholder="E-Mail address" class="form-control"  type="text">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-education"></i></span>
+					<input name="college" placeholder="College/University" class="form-control" type="text">
 				</div>
 			</div>
 		</div>
 		<div class="form-group">
-			<label class="control-label">CONTACT-NO</label>
+			<label class="control-label">CONTACT NO.</label>
 			<div class="inputGroupContainer">
 				<div class="input-group">
 				<span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-				<input  name="first_name" placeholder="Phone number" class="form-control"  type="text">
+				<input  name="contact" placeholder="Phone number" class="form-control"  type="text">
 				</div>
 			</div>
 		</div>
 		<div class="form-group">
-			<label class="control-label">TEAM NAME</label>
+			<label class="control-label">DESIGNATION</label>
 			<div class="inputGroupContainer">
 				<div class="input-group">
 				<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-				<input  name="first_name" placeholder="Team name" class="form-control"  type="text">
+				<input  name="designation" placeholder="Designation" class="form-control"  type="text">
 				</div>
 			</div>
 		</div>
 		<div class="form-group"> 
-			<label class="control-label">NO OF TEAM MEMBERS</label>
-			<div class="selectContainer">
-				<div class="input-group">
-				<span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-				<select name="department" class="form-control selectpicker">
-					<option value="">No of team members</option>
-					<option>1</option>
-					<option>2</option>
-					<option>3</option>
-					<option>4</option>
-				</select>
-				</div>
+			<label class="control-label">Register For</label>
+			<div class="checkbox">
+				<label>
+      				<input name="sports" type="checkbox" value="Football"> Football
+    			</label>
+			</div>
+			<div class="checkbox">
+				<label>
+      				<input name="sports" type="checkbox" value="Volleyball"> Volleyball
+    			</label>
+			</div>
+			<div class="checkbox">
+				<label>
+      				<input name="sports" type="checkbox" value="Basketball Boys"> Basketball Boys
+    			</label>
+			</div>
+			<div class="checkbox">
+				<label>
+      				<input name="sports" type="checkbox" value="Basketball Girls"> Basketball Girls
+    			</label>
+			</div>
+			<div class="checkbox">
+				<label>
+      				<input name="sports" type="checkbox" value="Cricket"> Cricket
+    			</label>
+			</div>
+			<div class="checkbox">
+				<label>
+      				<input name="sports" type="checkbox" value="Tennis Boys"> Tennis Boys
+    			</label>
+			</div>
+			<div class="checkbox">
+				<label>
+      				<input name="sports" type="checkbox" value="Tennis Girls"> Tennis Girls
+    			</label>
+			</div>
+			<div class="checkbox">
+				<label>
+      				<input name="sports" type="checkbox" value="Badminton Boys"> Badminton Boys
+    			</label>
+			</div>
+			<div class="checkbox">
+				<label>
+      				<input name="sports" type="checkbox" value="Badminton Girls"> Badminton Girls
+    			</label>
+			</div>
+			<div class="checkbox">
+				<label>
+      				<input name="sports" type="checkbox" value="Table Tennis Boys">Table Tennis Boys
+    			</label>
+			</div>
+			<div class="checkbox">
+				<label>
+      				<input name="sports" type="checkbox" value="Table Tennis Girls">Table Tennis Girls
+    			</label>
+			</div>
+			<div class="checkbox">
+				<label>
+      				<input name="sports" type="checkbox" value="Chess"> Chess
+    			</label>
 			</div>
 		</div>
 		<div class="form-group">
@@ -74,7 +132,8 @@
 			<input type="submit" class="btn" value="Submit"> 
 			</div>
 		</div>
-	
+	</form>
+	</div>
 </div>
 </body>
 </html>
