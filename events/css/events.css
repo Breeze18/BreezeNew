@@ -13,8 +13,38 @@
     src: url(Montserrat-Regular.otf);
 }
 
+	.slideanim {visibility:hidden;}
+	.slide {
+	    animation-name: slide;
+	    -webkit-animation-name: slide;
+	    animation-duration: 1s;
+	    -webkit-animation-duration: 1s;
+	    visibility: visible;
+	}
+
+	@keyframes slide {
+	  0% {
+	    opacity: 0;
+	    transform: translateY(70%);
+	  }
+	  100% {
+	    opacity: 1;
+	    transform: translateY(0%);
+	  }
+	}
+	@-webkit-keyframes slide {
+	  0% {
+	    opacity: 0;
+	    -webkit-transform: translateY(70%);
+	  }
+	  100% {
+	    opacity: 1;
+	    -webkit-transform: translateY(0%);
+	  }
+	}
+
 .heading-sports{
-	background-image: url(../images/sports.jpg);
+	background-image: url(../images/sportswbo.jpg);
 	text-align: center;
 	background-size: cover;
 	background-position: 0px -300px;
@@ -23,7 +53,7 @@
 }
 
 .heading-cultural {
-	background-image: url(../images/cultural.jpg);
+	background-image: url(../images/culturalwbo.jpg);
 	text-align: center;
 	background-size: cover;
 	background-position: 0px -300px;
@@ -32,7 +62,7 @@
 }
 
 .heading-technical {
-	background-image: url(../images/technical.jpg);
+	background-image: url(../images/technicalwbo.jpg);
 	text-align: center;
 	padding-top: 75px;
 	padding-top: 60px;

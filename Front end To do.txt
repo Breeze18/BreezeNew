@@ -1,0 +1,20 @@
+Home Page:
+	- Add logo animation and background
+	- Add preloader
+
+Events Page:
+	- Add images (Done)
+	- Add Content
+	- Link indivdual events pages
+
+Register Page:
+	- Fix Layout
+	- Change images
+
+Accomodation:
+	- Apply color scheme
+
+Team Page(Needs to be made):
+	- Make layout
+	- Add images
+	- Apply color scheme
