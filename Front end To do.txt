@@ -8,8 +8,8 @@ Events Page:
 	- Link indivdual events pages
 
 Register Page:
-	- Fix Layout
-	- Change images
+	- Fix Layout (Done)
+	- Change images (Done)
 
 Accomodation:
 	- Apply color scheme
