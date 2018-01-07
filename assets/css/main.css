@@ -843,3 +843,10 @@ ul li {
 .forgot {
     display: none;
 }
+
+.eventList{
+  height: 100px;
+  width: inherit;
+  overflow: hidden;
+
+}
