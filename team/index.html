@@ -1,0 +1,42 @@
+<!Doctype html>
+
+<head>
+    <title>
+        Team
+    </title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/team.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="container" style="padding-right: 0px;
+padding-left: 0px;">
+<div class="headingimg text-center">
+        <img class="img-responsive ribbon" id="contactimg" src="images/contactimg.svg">
+        <h3 class="text-center ribbonheading">TEAM</h3>
+        </div>
+    <div class="container" id="cult" style="background-color: #FFF0D9;">
+        
+    </div>
+</div>
+</body>
+</html>
+
+<script>
+$(document).ready(function(){
+    $(window).scroll(function(){
+        $(".slideanim").each(function(){
+          var pos = $(this).offset().top;
+
+          var winTop = $(window).scrollTop();
+            if (pos < winTop + 600) {
+              $(this).addClass("slide");
+            }
+        });
+    });
+});
+</script>
